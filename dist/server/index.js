@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _webpack = require('webpack');
 
 var _webpack2 = _interopRequireDefault(_webpack);
@@ -105,3 +109,5 @@ app.listen(_commander2.default.port, function (error) {
     logger.info('\nReact Storybook started on => http://localhost:' + _commander2.default.port + '/ \n');
   }
 });
+
+exports.default = app;

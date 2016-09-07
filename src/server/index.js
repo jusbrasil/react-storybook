@@ -71,3 +71,6 @@ app.listen(program.port, function (error) {
     logger.info(`\nReact Storybook started on => http://localhost:${program.port}/ \n`);
   }
 });
+
+export default app;
+
